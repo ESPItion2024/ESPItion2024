@@ -35,6 +35,11 @@
         .container {
             padding: 2rem;
         }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         .gallery img {
             width: 100%;
             max-width: 300px;
@@ -62,6 +67,22 @@
         .form-group button:hover {
             background-color: #45a049;
         }
+        .whatsapp-button {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 1rem auto;
+            text-align: center;
+            text-decoration: none;
+            padding: 1rem;
+            background-color: #25D366;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+        .whatsapp-button:hover {
+            background-color: #1ebc54;
+        }
     </style>
 </head>
 <body>
@@ -79,7 +100,7 @@
     <div class="container">
         <section id="descripcion">
             <h2>Descripción</h2>
-            <p>Nuestra casa de campo ofrece 3 habitaciones, sala, comedor, 2 baños, piscina y amplias zonas verdes, ideal para familias y mascotas. 🌳🏡</p>
+            <p>Nuestra casa de campo ofrece 3 habitaciones, sala, comedor, 2 baños, piscina y amplias zonas verdes, ideal para familias y mascotas. 🌳🏡 Disfruta de la tranquilidad y privacidad durante las fiestas de Ibagué.</p>
         </section>
         <section id="galeria">
             <h2>Galería</h2>
@@ -87,6 +108,9 @@
                 <img src="imagen1.jpg" alt="Casa de campo">
                 <img src="imagen2.jpg" alt="Piscina">
                 <img src="imagen3.jpg" alt="Jardín">
+                <img src="imagen4.jpg" alt="Sala">
+                <img src="imagen5.jpg" alt="Comedor">
+                <img src="imagen6.jpg" alt="Habitación">
             </div>
         </section>
         <section id="tarifas">
@@ -95,7 +119,8 @@
         </section>
         <section id="contacto">
             <h2>Contacto</h2>
-            <p>Para obtener descuentos exclusivos y más información, contáctanos al <strong>3167514622</strong>. Estamos atentos por WhatsApp para ayudarte con cualquier consulta.</p>
+            <p>Para obtener descuentos exclusivos y más información, contáctanos al <strong>32167514622</strong>. Estamos atentos por WhatsApp para ayudarte con cualquier consulta.</p>
+            <a href="https://wa.me/5732167514622" class="whatsapp-button">Contáctanos por WhatsApp</a>
         </section>
         <section id="reserva">
             <h2>Reserva</h2>
